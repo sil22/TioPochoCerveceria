@@ -11,6 +11,7 @@
 
 </head>
 <body>
+
   <div class="container">
     <div class="row">
       <div class="col-md-12 section-line">
@@ -18,7 +19,7 @@
           <li><a href="#"><img class="img-responsive icon" src="images/facebook2.png" alt=""></a></li>
           <li><a href="#"><img class="img-responsive icon" src="images/instagram2.jpeg" alt=""></a></li>
           <li><a href="#"><img class="img-responsive iconT" src="images/twitter.png" alt=""></a></li>
-          <li class="navRigth"><a href="#">Loguearme</a></li>
+          <li class="navRigth"><a href="#">Loguearme |</a></li>
           <li class="navRigth"><a href="#">Registrarme</a></li>
         </ul>
       </div>
@@ -26,27 +27,37 @@
   </div>
   <div class="row">
     <div class="col-md-12 navLogo">
-        <div class="col-md-3">
-      <nav class="navbar">
-        <div class="container ">
-          <div class="navbar-header">
-            <img class="img-responsive logo" src="images/logoTioPocho.png" alt="">
+      <div class="col-md-3">
+        <nav class="navbar">
+          <div class="container ">
+            <div class="navbar-header">
+              <img class="img-responsive logo" src="images/logoTioPocho.png" alt="">
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
       <div class="col-md-8">
         <form class="navbar-form search">
           <div class="form-group">
             <input type="text" size="80" class="form-control" placeholder="Buscar cerveza...">
           </div>
           <button type="submit" class="btn btn-default">
-        <a href="#">   <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a> </button>
-        </form>
-      </div>
-      <div class="col-md-1">
-        <a href="#"><span class="glyphicon glyphicon-shopping-cart cart" aria-hidden="true"></span></a>
-      </div>
+            <a href="#">   <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a> </button>
+          </form>
+        </div>
+        <div class="col-md-1">
+          <div class="dropdown">
+              <a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-shopping-cart cart" aria-hidden="true"></span></a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li>Productos comprados: 0</li>
+              <li>Total: $0 </li>
+              <li role="separator" class="divider"></li>
+              <li class="text-center li-cart"><a href="#">Ver todos</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="text-center li-cart"><a href="#">Finalizar compra</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -115,41 +126,88 @@
         </div>
 
         <div class="col-md-12 promociones">
-          <h4 class="section-line text-center tittle">Promociones</h4>
-        <div class="col-md-3 promos">
-          <figcaption class="desc">10% OFF!</figcaption>
-          <figure>
-            <img src="images/cerveza-artesanal-negra.png" class="img-responsive imgPromo" alt="">
-          </figure>
-          <figcaption>$200</figcaption>
-        </div>
-        <div class="col-md-3 promos">
-          <figcaption class="desc">20% OFF!</figcaption>
-          <figure>
-          <img src="images/roja.jpeg" class="img-responsive imgPromo" alt="">
-          </figure>
-          <figcaption class="text-center">$100</figcaption>
-        </div>
-        <div class="col-md-3 promos">
-          <figcaption class="desc">20% OFF!</figcaption>
-          <figure>
-          <img src="images/rubia.jpg" class="img-responsive imgPromo" alt="">
-          </figure>
-          <figcaption>$80</figcaption>
+          <h4 class="section-line text-center tittle">Promociones imperdibles!</h4>
+          <div class="col-md-3 promos">
+            <figcaption class="desc">Vaso de Regalo!</figcaption>
+            <figure>
+              <img src="images/cerveza-artesanal-negra.png" class="img-responsive imgPromo" alt="">
+            </figure>
+            <figcaption class="text-center precio">Precio con promo! $200</figcaption>
+            <button class="btn btn-default agregar" type="submit">Agregar al carrito</button>
+          </div>
+          <div class="col-md-3 promos">
+            <figcaption class="desc">10% OFF!</figcaption>
+            <figure>
+              <img src="images/artesanal.png" class="img-responsive imgPromo" alt="">
+            </figure>
+            <figcaption class="text-center precio">Precio con promo! $100</figcaption>
+            <button class="btn btn-default agregar" type="submit">Agregar al carrito</button>
+          </div>
+          <div class="col-md-3 promos">
+            <figcaption class="desc">Una Pinta!</figcaption>
+            <figure>
+              <img src="images/cerveza.png" class="img-responsive imgPromo" alt="">
+            </figure>
+            <figcaption class="text-center precio">Precio con promo! $80</figcaption>
+            <button class="btn btn-default agregar" type="submit">Agregar al carrito</button>
+          </div>
+          <div class="col-md-3 promos">
+            <figcaption class="desc">20% OFF!</figcaption>
+            <figure>
+              <img src="images/artesanal.png" class="img-responsive imgPromo" alt="">
+            </figure>
+            <figcaption class="text-center precio">Precio con promo! $80</figcaption>
+            <button class="btn btn-default agregar" type="submit">Agregar al carrito</button>
+          </div>
         </div>
 
-        <div class="col-md-3 promos">
-          <figcaption class="desc">20% OFF!</figcaption>
+        <div class="col-md-6 formConsulta">
+          <h4 class="section-line tittle">Hacenos tu consulta!</h4>
+          <form class="formConsulta1">
+            <div class="form-group">
+              <label >Nombre y apellido</label>
+              <input type="text" class="form-control" placeholder="Nombre y apellido">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Consulta</label>
+              <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar!</button>
+          </form>
+        </div>
+        <div class="col-md-6 boxFacebook">
+          <h4 class="section-line tittle">Opiniones sobre nuestras cervezas!</h4>
           <figure>
-            <img src="images/images (2).jpeg" class="img-responsive imgPromo" alt="">
+            <img src="images/comentarios-facebook.png" class="comments" alt="">
           </figure>
-          <figcaption>$80</figcaption>
         </div>
       </div>
 
     </div>
+    <footer>
+
+    <div class="row">
+      <div class="col-md-12">
+          <div class="col-md-4">
+              <img class="img-responsive logoFooter" src="images/logoTioPocho.png" alt="">
+          </div>
+          <div class="col-md-6">
+            <ul class="listFooter">
+              <li>Beber con moderación. Prohibida su venta a menores de 18 años</li>
+              <li>Av. Avellaneda 1532 - Tandil - Buenos Aires - Argentina - Tel 444-0168</li>
+            </ul>
+
+          </div>
+
+      </div>
+    </div>
+  </footer>
+
   </div>
-</div>
 
 
   <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
