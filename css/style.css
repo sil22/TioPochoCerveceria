@@ -16,17 +16,21 @@ body{
 
 .navbar-default {
 	border: none !important;
+	margin-bottom: 5px !important;
 }
 
 .navList {
 	padding: 15px 100px 15px 90px;
 	text-transform: uppercase;
 	font-weight: bold;
-
 }
 
 .navList:hover{
 	background-color: rgba(196, 192, 138, 0.33);
+}
+
+.navList>a>:active{
+	background-color: rgba(196, 192, 138, 0.33) !important;
 }
 
 .navRigth{
@@ -36,7 +40,6 @@ body{
 a{
 	padding: 0px !important;
 	color: #a79d5d !important;
-
 }
 
 .imgBanner {
@@ -60,9 +63,7 @@ a{
 	color: rgb(101, 91, 47);
 	padding-top: 25px;
 	padding-rightx: 15px;
-
 }
-
 .search {
 	margin-top: 30px !important;
 }
@@ -70,12 +71,10 @@ a{
 .comments{
 	width: 500px;
 	height: 370px;
+	margin-top: 10px;
 }
-
-
 .navLogo {
 	margin-top: 20px;
-	margin-bottom: 10px;
 	background-color: rgba(222, 191, 61, 0.6);
 	border-radius: 10px;
 }
@@ -95,8 +94,7 @@ a{
 	/*border: 2px solid rgba(167, 157, 93, 0.28);*/
 	background-color: rgba(88, 85, 77, 0.18);
 	box-shadow: 0px 0px 6px rgba(27, 27, 28, 0.46);
-	margin-left: 8px;
-	margin-right: 8px;
+	margin: 10px 8px 0px 8px;
 	width: 260px !important;
 	border-radius: 10px;
 	padding-bottom: 15px;
@@ -128,7 +126,6 @@ a{
 .dropdown-menu{
 	padding: 20px !important;
 	width: 200px;
-	position: static;
 }
 
 .dropdown-toggle {
@@ -141,6 +138,7 @@ a{
 .formConsulta1{
 	background-image: url('../images/Primera.jpg');
 	padding: 15px;
+	margin-top: 20px;
 }
 label{
 	color: white;
@@ -153,7 +151,7 @@ label{
 footer{
 	background-color: rgba(222, 191, 61, 0.6);
 	color: #817944;
-	margin-top: 25px;
+	margin-top: 35px;
 	margin-bottom: 25px;
 	padding: 10px 0px 10px 0px;
 	font-size: 15px;
@@ -170,4 +168,21 @@ li {
 .logoFooter{
 	padding-left: 100px;
 	padding-top: 10px;
+}
+
+.formConsulta1>.form-group>.form-control {
+	box-shadow: 5px 0px 5px 5px rgba(27, 27, 28, 0.76) !important;
+}
+
+.ver {
+	float: right;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.breadcrumb {
+	margin: 0px !important;
+	float: right;
 }
