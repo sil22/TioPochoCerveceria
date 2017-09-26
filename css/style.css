@@ -7,7 +7,66 @@ body{
 	/*color: #828282;*/
 }
 
-.icon, .iconT{
+.precio-novProd {
+	font-size: 15px;
+	color: rgb(232, 83, 57);
+	font-weight: bold;
+}
+
+.text-novProd {
+	margin-right: 20px;
+}
+
+.title-prod {
+	margin-left: 10px;
+	color: #a79d5d;
+}
+
+.img-novProd {
+	width: 80px;
+	height: 80px;
+	margin-left: 40px;
+}
+
+.img-novProd2 {
+	width: 80px;
+	height: 80px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.btn-novedadesProductos {
+	background-color: rgb(222, 191, 61) !important;
+	color: white !important;
+	font-size: 16px !important;
+}
+
+.productosProd {
+	margin-left: 300px;
+}
+
+.novedadesProductos {
+	background-color: rgba(88, 85, 77, 0.18);
+	box-shadow: 0px 0px 6px rgba(27, 27, 28, 0.46);
+
+	border-radius: 10px;
+	margin: 10px 8px 0px 8px;
+	width: 1100px !important;
+	height: 200px;
+	padding: 20px;
+}
+
+.filtros {
+	background-color: rgba(222, 191, 61, 0.5);
+	box-shadow: 0px 0px 6px rgba(27, 27, 28, 0.46);
+	margin: 10px 60px 0px 8px;
+	width: 220px !important;
+
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.icon, .iconT {
   height: 30px;
   width: 30px;
   padding: 3px;
@@ -88,7 +147,8 @@ a{
 	text-transform: uppercase;
 	padding-bottom: 20px;
 	color: #a79d5d;
-
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .promos {
 	/*border: 2px solid rgba(167, 157, 93, 0.28);*/
