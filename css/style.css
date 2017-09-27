@@ -20,11 +20,16 @@ body{
 }
 
 .precio-novProd {
-	font-size: 15px;
+	font-size: 16px;
 	color: rgb(232, 83, 57);
 	font-weight: bold;
 	width: 100px;
 	margin: 0px;
+}
+
+.descrip {
+	margin-top: 15px;
+	font-size: 16px;
 }
 
 .text-novProd {
@@ -63,12 +68,11 @@ body{
 .novedadesProductos {
 	background-color: rgba(88, 85, 77, 0.18);
 	box-shadow: 0px 0px 6px rgba(27, 27, 28, 0.46);
-
 	border-radius: 10px;
-	margin: 10px 8px 0px 8px;
+	margin: 10px 8px 10px 8px;
 	width: 1100px !important;
 	height: 200px;
-	padding: 20px;
+	padding: 15px;
 }
 
 .filtros {
@@ -253,10 +257,9 @@ li {
 }
 
 .active {
-	text-decoration: underline;
+	background-color: rgba(196, 192, 138, 0.33) !important;
+	/*text-decoration: underline;*/
 }
-
-.breadcrumb {
-	margin: 0px !important;
-	float: right;
+.glyphicon-chevron-left::before, .glyphicon-chevron-right::before{
+	color: white;
 }
