@@ -1,16 +1,30 @@
 body{
 	background-color: rgba(126, 122, 102, 0.06) !important;
 }
+
+.carrito {
+	margin-right: 60px;
+}
+
 .section-line {
 	border-bottom: 1px solid #a79d5d;
 	/*text-transform: uppercase;*/
 	/*color: #828282;*/
 }
 
+.filtroNom {
+	margin: 10px;
+	font-size: 15px;
+	color: #4d4907;
+	font-weight: bold;
+}
+
 .precio-novProd {
 	font-size: 15px;
 	color: rgb(232, 83, 57);
 	font-weight: bold;
+	width: 100px;
+	margin: 0px;
 }
 
 .text-novProd {
@@ -39,6 +53,7 @@ body{
 	background-color: rgb(222, 191, 61) !important;
 	color: white !important;
 	font-size: 16px !important;
+	margin: 0px;
 }
 
 .productosProd {
@@ -176,39 +191,38 @@ a{
 	font-weight: bold;
 }
 
-.agregar{
+.agregar {
 	margin-left: 40px;
 	background-color: rgb(222, 191, 61) !important;
 	color: white !important;
 	font-size: 16px !important;
 }
 
-.dropdown-menu{
+.dropdown-menu {
 	padding: 20px !important;
-	width: 200px;
 }
 
 .dropdown-toggle {
 	margin-top: 15px;
 }
 
-.formConsulta, .boxFacebook{
+.formConsulta, .boxFacebook {
 	margin-top: 25px;
 }
-.formConsulta1{
+.formConsulta1 {
 	background-image: url('../images/Primera.jpg');
 	padding: 15px;
 	margin-top: 20px;
 }
-label{
+label {
 	color: white;
 	font-size: 20px;
 }
-.carousel{
+.carousel {
 	box-shadow: 0px 0px 8px 8px rgba(41, 39, 33, 0.2);
 }
 
-footer{
+footer {
 	background-color: rgba(222, 191, 61, 0.6);
 	color: #817944;
 	margin-top: 35px;
@@ -222,10 +236,10 @@ li {
 	list-style-type: none;
 }
 
-.listFooter>li{
+.listFooter>li {
 	padding-top: 20px;
 }
-.logoFooter{
+.logoFooter {
 	padding-left: 100px;
 	padding-top: 10px;
 }

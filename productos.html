@@ -46,11 +46,11 @@
             <a href="#">   <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a> </button>
           </form>
         </div>
-        <div class="col-md-1">
-          <div class="dropdown">
-            <a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-shopping-cart cart" aria-hidden="true"></span></a>
+        <div class="carrito col-md-offset-1">
+          <div class="dropdown navbar-right">
+              <a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-shopping-cart cart" aria-hidden="true"></span></a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li>Productos comprados: 0</li>
+              <li>Agregados: 0</li>
               <li>Total: $0 </li>
               <li role="separator" class="divider"></li>
               <li class="text-center li-cart"><a href="#">Ver todos</a></li>
@@ -74,6 +74,7 @@
                 <span class="icon-bar"></span>
               </button>
             </div>
+
             <div class="collapse navbar-collapse section-line" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li class="navList"><a href="index.html">Inicio</a></li>
@@ -98,21 +99,21 @@
 
             <div class="col-md-2 filtros">
               <ul>
-                <li>Rubia</li>
+                <li class="filtroNom"><input type="checkbox" name="" value="">Rubia</li>
                   <ul>
-                      <li>Suave</li>
-                      <li>Fuerte</li>
-                      <li>Dulce</li>
+                      <li class="filtroNom"><input type="checkbox" name="" value="">Suave</li>
+                      <li class="filtroNom"><input type="checkbox" name="" value="">Fuerte</li>
+                      <li class="filtroNom"><input type="checkbox" name="" value="">Dulce</li>
                   </ul>
-                  <li>Roja</li>
+                  <li class="filtroNom"><input type="checkbox" name="" value="">Roja</li>
                   <ul>
-                    <li>Irish</li>
-                    <li>Fuerte</li>
+                    <li class="filtroNom"><input type="checkbox" name="" value="">Irish</li>
+                    <li class="filtroNom"><input type="checkbox" name="" value="">Fuerte</li>
                   </ul>
-                  <li>Negra</li>
+                  <li class="filtroNom"><input type="checkbox" name="" value="">Negra</li>
                   <ul>
-                    <li>Stout</li>
-                    <li>Porter</li>
+                    <li class="filtroNom"><input type="checkbox" name="" value="">Stout</li>
+                    <li class="filtroNom"><input type="checkbox" name="" value="">Porter</li>
                   </ul>
               </ul>
             </div>
@@ -178,10 +179,10 @@
                     <img src="images/artesanal.png" class="img-responsive img-novProd" alt="">
                 </figure>
                 <h4 class="title-prod">Roja de estación!</h4>
-                <p class="text-novProd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="">
-                  <figcaption class="text-center precio-novProd">Precio: $100</figcaption>
-                  <button class="btn btn-default btn-novedadesProductos col-md-offset-7" type="submit">Agregar al carrito</button>
+                <p class="text-novProd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="col-md-offset-3">
+                  <figcaption class="precio-novProd">Precio: $100</figcaption>
+                  <button class="btn btn-default btn-novedadesProductos col-md-offset-9" type="submit">Agregar al carrito</button>
                 </div>
               </div>
 
@@ -190,11 +191,10 @@
                 <img src="images/chop.png" class="img-responsive img-novProd2" alt="">
               </figure>
               <h4 class="title-prod">Nuevo Chop!</h4>
-              <p class="text-novProd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-              <div class="">
+              <p class="text-novProd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <div class="col-md-offset-3">
                 <figcaption class="text-center precio-novProd">Precio: $100</figcaption>
-                <button class="btn btn-default btn-novedadesProductos col-md-offset-10" type="submit">Agregar al carrito</button>
+                <button class="btn btn-default btn-novedadesProductos col-md-offset-9" type="submit">Agregar al carrito</button>
               </div>
             </div>
 
