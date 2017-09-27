@@ -30,6 +30,7 @@ body{
 .descrip {
 	margin-top: 15px;
 	font-size: 16px;
+	color: #a79d5d;
 }
 
 .text-novProd {
@@ -107,10 +108,6 @@ body{
 	background-color: rgba(196, 192, 138, 0.33);
 }
 
-.navList>a>:active{
-	background-color: rgba(196, 192, 138, 0.33) !important;
-}
-
 .navRigth{
 	padding: 19px 10px 10px 10px;
 }
@@ -165,9 +162,9 @@ a{
 .tittle {
 	text-transform: uppercase;
 	padding-bottom: 20px;
-	color: #a79d5d;
+	color: #7c7865;
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .promos {
 	/*border: 2px solid rgba(167, 157, 93, 0.28);*/
